@@ -12,4 +12,42 @@ public class ControllerProject {
 	{
 		return "home";
 	}
+	@GetMapping("/adminlogin")
+	public String adminlogin()
+	{
+		return "adminlogin";
+	}
+	@GetMapping("/citizenlogin")
+	public String citizenlogin()
+	{
+		return "citizenlogin";
+	}
+	@GetMapping("/politicianlogin")
+	public String politicianlogin()
+	{
+		return "politicianlogin";
+	}
+	@GetMapping("/moderatorlogin")
+	public String moderatorlogin() {
+		return "moderatorlogin";
+	}
+	@GetMapping("/citizensignup")
+	public String citizensignup()
+	{
+		return "citizensignup";
+	}
+	@GetMapping("/politiciansignup")
+	public String politiciansignup()
+	{
+		return "politiciansignup";
+	}
+	@GetMapping("/moderatorsignup")
+	public String moderatorsignup() {
+		return "moderatorsignup";
+	}
+	@GetMapping("/adminhome")
+	public String adminhome()
+	{
+		return "adminhome";
+	}
 }
